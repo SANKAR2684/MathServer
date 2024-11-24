@@ -32,6 +32,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,7 +151,7 @@ def power_calculate(request):
 
     urls.py
 
-    from django.contrib import admin
+from django.contrib import admin
 from django.urls import path
 from app1 import views
 urlpatterns = [
@@ -158,7 +159,7 @@ urlpatterns = [
     path('powerofbulb/',views.power_calculate,name="powerofbulb"),
     path('',views.power_calculate,name="powerofbulb")
 ]
-
+```
 
 ## SERVER SIDE PROCESSING:
 
