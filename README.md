@@ -111,11 +111,11 @@ Publish the website in the given URL.
 
 </body>
 </html>
-
+```
 
 views.py
 
-
+```
 
 from django.shortcuts import render
 def power_calculate(request):
@@ -147,10 +147,10 @@ def power_calculate(request):
       
     
     return render(request, 'app1/app.html',context)
-
+```
 
     urls.py
-
+```
 from django.contrib import admin
 from django.urls import path
 from app1 import views
